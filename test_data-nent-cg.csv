@@ -1,0 +1,492 @@
+Emma,1,0,0,[case  det  amod  nmod  cc  conj  nmod],friend,0,0,0,0
+Emma,3,0,0,[case  nmod:poss  amod],situation,0,',Emma,0
+Emma,7,Emma,0,[nsubj  cc  conj  xcomp  parataxis  parataxis],smiled,0,impossible,smiled,0
+Emma,10,this,0,[mark  nsubj  cop  neg  advmod  xcomp],agreeable,0,0,0,0
+Emma,12,0,Emma,[advmod  dobj],said,0,0,0,0
+Emma,17,harm,0,[nsubj  advcl  nsubj  neg  nmod  advcl],thinks,0,0,0,0
+Emma,23,Emma,whom,[dobj  nsubj  advmod  nmod  cc  conj],knew,0,by,sight,0
+Emma,36,Emma,which,[dobj  nsubj],thought,0,0,0,0
+Emma,37,0,0,[compound:prt  nmod  advcl],fixed,0,by,Emma,0
+Emma,42,it,0,[dep  nsubj  cop  case  dep],Emma,0,fortunate,Emma,0
+Emma,45,Emma,0,[dep  nsubj  aux  aux  xcomp],meaning,0,0,0,0
+Emma,47,Emma,0,[nsubj  aux  xcomp],omitting,0,0,0,0
+Emma,50,You,education,[nsubj  aux  neg  iobj  dobj  advcl  cc  conj],give,Emma,0,0,0
+Emma,56,0,0,[nmod:poss  dep],s,0,pretty,s,0
+Emma,65,0,0,[det  amod  nmod],interest,0,in,Emma,0
+Emma,68,I,0,[nsubj  aux  neg  advmod  advcl  nmod  conj  cc  conj],recommend,0,present,recommend,0
+Emma,68,I,0,[nsubj  aux  neg  advmod  advcl  nmod  conj  cc  conj],recommend,0,to,Emma,0
+Emma,72,0,Emma,[dobj],thought,0,0,0,0
+Emma,73,Emma,0,[nsubj  xcomp  cc  conj],wished,0,0,0,0
+Emma,75,husbands,0,[nsubj  dep  nsubj  xcomp],began,0,0,0,0
+Emma,80,0,0,[ccomp  dep],thought,0,0,0,0
+Emma,82,Emma,0,[cc  dep  nsubj  cop  amod],half,0,0,0,0
+Emma,86,Emma,0,[nmod  nsubj  nmod  cc  conj],persevered,0,For,while,0
+Emma,86,Emma,0,[nmod  nsubj  nmod  cc  conj],persevered,0,in,silence,0
+Emma,87,0,Emma,[csubj  dobj  advcl],said,0,0,0,0
+Emma,89,0,0,[det  amod  det  amod  acl:relcl  det  amod],letter,0,short,letter,0
+Emma,99,Emma,0,[nsubj  ccomp],knew,0,TRUE,knew,0
+Emma,116,Knightley,0,[advcl  nsubj  aux  nmod  cc  conj  nsubj  aux  neg  nmod],quarrel,0,at,her,0
+Emma,117,Emma,0,[nsubj  cop  advmod  advmod  nmod],satisfied,0,0,0,0
+Emma,123,Emma,0,[nsubj  nmod],spoke,0,0,0,0
+Emma,123,Emma,0,[nsubj  nmod],spoke,0,for,her,0
+Emma,124,Emma,prose,[nsubj  aux  neg  aux  dobj],desired,0,0,0,0
+Emma,130,Emma,him,[cc  nsubj  aux  dobj  nmod  cc  conj],receive,0,0,0,0
+Emma,133,Emma,0,[nmod  nsubj  advmod],said,0,With,view,0
+Emma,137,Emma,it,[mark  nmod  nsubj  aux  advmod  dobj  nmod  advcl],class,0,as,proof,0
+Emma,139,Emma,0,[nsubj  cop  advmod  cc  conj],compassionate,0,0,0,0
+Emma,142,0,Emma,[dobj],thought,0,0,0,0
+Emma,144,Emma,disappointment,[nsubj  dobj  ccomp],experienced,0,0,0,0
+Emma,151,0,0,[nmod:poss  amod],account,0,0,0,0
+Emma,154,Emma,0,[dep  nsubj  aux  neg  ccomp  cc  conj],like,0,0,0,0
+Emma,159,Emma,woman,[nsubj  compound:prt  dobj],grow,0,0,0,0
+Emma,165,0,0,[case  nmod:poss  amod],account,0,',Emma,0
+Emma,165,0,0,[case  nmod:poss  amod],account,0,s,account,0
+Emma,186,0,0,[case  det  amod  nmod],air,0,0,0,0
+Emma,186,0,0,[case  det  amod  nmod],air,0,soft,air,0
+Emma,195,0,0,[case  nmod  dep],nothing,0,ill,nothing,0
+Emma,195,0,0,[case  nmod  dep],nothing,0,but,ill,0
+Emma,198,Emma,0,[ccomp  nsubj],said,0,0,0,0
+Emma,205,0,0,[compound  compound  cc  conj],Weston,0,0,0,0
+Emma,211,Emma,0,[advmod  cc  nsubj  xcomp  xcomp  cc  conj],hoped,0,0,0,0
+Emma,214,Emma,what,[dobj  nsubj],felt,0,0,0,0
+Emma,220,Emma,0,[nsubj  compound:prt  nmod  nmod  advcl],got,0,0,0,0
+Emma,226,Emma,0,[mark  nsubj  aux],foreseen,0,0,0,0
+Emma,235,which,Emma,[nsubj  dobj  advmod],made,0,0,0,0
+Emma,236,0,0,[case  nmod:poss  amod],opinion,0,s,opinion,0
+Emma,238,0,0,[nmod:poss  amod  acl:relcl],politeness,0,',Emma,0
+Emma,241,0,0,[nmod:poss  amod  nmod],brain,0,0,0,0
+Emma,246,Emma,her,[nmod  nsubj  dobj  nmod],left,0,Upon,whole,0
+Emma,251,0,0,[mark  cop  advmod  nmod],intelligible,0,to,Emma,0
+Emma,252,0,0,[det  compound  appos],pleasant,0,0,0,0
+Emma,254,Emma,0,[nsubj  ccomp],said,0,0,0,0
+Emma,257,0,0,[advmod  nmod],eaten,0,of,Emma,0
+Emma,263,0,Emma,[mark  dep  dobj],said,0,0,0,0
+Emma,264,Emma,0,[nmod  nsubj],said,0,0,0,0
+Emma,266,Emma,0,[advcl  nsubjpass  auxpass  xcomp],obliged,0,0,0,0
+Emma,272,Emma,0,[nmod  advmod  nsubj  xcomp],thought,0,Of,lady,0
+Emma,273,0,0,[nmod  expl  advmod  cop  advmod  dep  ccomp],easy,0,As,connexion,0
+Emma,275,Emma,him,[nsubj  dobj  advmod  cc  conj],saw,0,0,0,0
+Emma,275,Emma,him,[nsubj  dobj  advmod  cc  conj],saw,0,sure,saw,0
+Emma,277,Emma,0,[nmod  nsubj  dep  nsubj  dep  xcomp],occasioned,0,0,0,0
+Emma,278,Emma,her,[advcl  nsubj  dobj  xcomp],observed,0,0,0,0
+Emma,280,Emma,0,[mark  nsubj  aux  advcl  nmod  xcomp],suspect,0,0,0,0
+Emma,283,Emma,it,[nsubj  dobj  advmod],consider,0,0,0,0
+Emma,287,0,0,[appos],morrow,0,0,0,0
+Emma,294,0,0,[nmod],turning,0,to,Emma,0
+Emma,295,0,Emma,[nmod  dobj],said,0,of,acquaintance,0
+Emma,296,Emma,0,[nsubj  xcomp  nmod  cc  conj],remained,0,pleased,remained,0
+Emma,299,0,0,[amod  nmod],oftener,0,than,Emma,0
+Emma,306,Emma,0,[ccomp  nsubj],said,0,0,0,0
+Emma,309,0,Emma,[dobj  advcl],said,0,0,0,0
+Emma,310,Emma,0,[advcl  nsubj  xcomp],felt,0,0,0,0
+Emma,311,Emma,0,[cc  nsubj  ccomp],determined,0,0,0,0
+Emma,313,Emma,0,[nmod  nsubj  ccomp],found,0,0,0,0
+Emma,316,Emma,0,[nsubj  aux  advmod  ccomp  cc  conj],suppose,0,0,0,0
+Emma,317,Emma,him,[mark  advcl  nsubj  aux  neg  dobj  xcomp],wish,0,0,0,0
+Emma,322,Emma,0,[nsubj  aux  advmod],going,0,0,0,0
+Emma,323,we,this,[ccomp  nsubj  aux  dobj],consider,0,0,0,0
+Emma,326,Emma,0,[nsubj  nmod  xcomp],had,0,as,reason,0
+Emma,328,0,0,[det  amod  nmod  appos],part,0,of,Emma,0
+Emma,330,Emma,0,[advcl  nsubj],said,0,0,0,0
+Emma,351,0,0,[nmod:poss  amod],mind,0,0,0,0
+Emma,351,0,0,[nmod:poss  amod],mind,0,',Emma,0
+Emma,363,Emma,0,[dep  ccomp  nsubj],replied,0,0,0,0
+Emma,365,you,0,[nsubj  aux  xcomp  cc  conj  conj  cc  conj],prevailed,0,happy,prevailed,0
+Emma,373,Emma,0,[nsubj  ccomp  cc  conj],wished,0,pointed,wished,0
+Emma,386,Emma,she,[nsubj  dobj],said,0,0,0,0
+Emma,394,substance,0,[nsubjpass  auxpass  nmod  nmod],forwarded,0,0,0,0
+Emma,395,0,0,[case  case  nmod:poss  amod],breakfast,0,s,breakfast,0
+Emma,407,Emma,0,[nsubj  aux  neg],doubt,0,0,0,0
+Emma,432,0,0,[nmod:poss  amod],dislike,0,',Emma,0
+Emma,434,Emma,confidence,[mark  nsubj  aux  dobj],forfeited,0,0,0,0
+Emma,436,0,0,[nummod],thought,0,0,0,0
+Emma,438,0,0,[nmod:poss  amod  amod],surprize,0,s,surprize,0
+Emma,448,I,0,[advmod  ccomp  nsubj  ccomp],say,0,0,0,0
+Emma,450,Emma,0,[mark  nsubj  aux  nmod  nmod],talked,0,0,0,0
+Emma,451,Emma,0,[nmod  nsubj  cop  advmod  nmod],pleased,0,',Harriet,0
+Emma,457,0,0,[nmod:poss  amod  cc  conj],Isabella,0,0,0,0
+Emma,461,letters,Emma,[nsubj  aux  neg  dobj],escaped,0,0,0,0
+Emma,462,Emma,0,[advcl  nsubj  xcomp],found,0,0,0,0
+Emma,466,Emma,0,[nsubj  aux  neg  xcomp],speak,0,0,0,0
+Emma,468,Emma,their,[nsubj  dobj  xcomp],doubted,0,0,0,0
+Emma,471,0,0,[case  det  amod  appos],thing,0,0,0,0
+Emma,474,0,Emma,[mark  dobj  nmod  advcl],satisfy,0,to,nature,0
+Emma,479,Emma,which,[dobj  nsubj  aux  neg  dobj  nmod],hear,0,0,0,0
+Emma,483,who,0,[nsubj  compound:prt  nmod],looked,0,0,0,0
+Emma,485,Churchill,0,[dep  nsubj  nmod  nmod],returned,0,0,0,0
+Emma,486,Emma,0,[mark  nsubj  aux  neg  advmod  ccomp  cc  conj],imagine,0,0,0,0
+Emma,497,Emma,0,[nsubj  aux  ccomp],imagine,0,0,0,0
+Emma,499,Emma,opportunity,[nsubj  dobj],had,0,0,0,0
+Emma,510,Emma,0,[mark  nsubj  aux],foreseen,0,0,0,0
+Emma,513,Emma,0,[advmod  parataxis  nsubj  cop  det  amod  acl],deal,0,0,0,0
+Emma,518,plaister,Emma,[nsubj  dobj  dep],said,0,0,0,0
+Emma,519,Emma,0,[nsubj  cop  advmod  xcomp],eager,0,0,0,0
+Emma,520,it,Emma,[nsubj  dobj],cried,0,0,0,0
+Emma,529,0,0,[case  nmod:poss  amod],errors,0,0,0,0
+Emma,529,0,0,[case  nmod:poss  amod],errors,0,s,errors,0
+Emma,536,Frank,0,[nsubj  cop  nmod  conj  cc  conj  advcl  cc  conj],next,0,to,Emma,0
+Emma,537,0,0,[nmod  cc  conj],prepared,0,for,Emma,0
+Emma,539,He,Emma,[nmod  nsubj  ccomp  mark  advmod  dobj],heard,0,for,shame,0
+Emma,540,friend,hint,[mark  nsubj  iobj  dobj],give,Emma,0,0,0
+Emma,543,0,0,[nmod:poss  amod  cc  conj],confusion,0,',Emma,0
+Emma,547,Emma,none,[nsubj  dobj  nmod  advmod  cc  conj],denied,0,of,it,0
+Emma,548,0,0,[compound  compound  cc  conj  acl],Woodhouse,0,0,0,0
+Emma,550,0,0,[dep],s,0,0,0,0
+Emma,554,Emma,0,[advmod  nsubjpass  auxpass  xcomp  parataxis],obliged,0,0,0,0
+Emma,560,Emma,0,[nsubj  nmod  advcl  parataxis],looked,0,0,0,0
+Emma,561,Emma,0,[advcl  advmod  nsubj  nmod  nmod  cc  conj],walked,0,0,0,0
+Emma,561,Emma,0,[advcl  advmod  nsubj  nmod  nmod  cc  conj],walked,0,for,sake,0
+Emma,566,0,0,[ccomp  dep],said,0,cooler,said,0
+Emma,573,Emma,0,[nsubj  cop  cc  conj],gay,0,0,0,0
+Emma,576,0,Frank,[dobj  nmod],whispered,0,0,0,0
+Emma,577,Emma,0,[dep  nsubj  aux  neg],resist,0,0,0,0
+Emma,579,0,0,[nmod  parataxis],You,0,certain,You,0
+Emma,584,Emma,0,[nsubj  xcomp  nmod  cc  conj  cc  conj],grew,0,last,grew,0
+Emma,586,Emma,0,[ccomp  nsubj  conj  conj  cc  conj],recollected,0,0,0,0
+Emma,587,Emma,0,[advmod  nsubj],cried,0,0,0,0
+Emma,590,Emma,0,[nsubj  dep  xcomp],felt,0,0,0,0
+Emma,595,0,Emma,[mark  nmod  dobj  nmod],break,0,To,Smallridge,0
+Emma,600,0,0,[nmod:poss  amod  compound  dep],meditations,0,',Emma,0
+Emma,602,Emma,0,[nsubj  aux  xcomp],been,0,0,0,0
+Emma,606,It,0,[nsubj  cop  advmod  det  amod  nmod],speculation,0,0,0,0
+Emma,606,It,0,[nsubj  cop  advmod  det  amod  nmod],speculation,0,with,Emma,0
+Emma,607,Emma,certainty,[mark  nmod  nsubj  aux  dobj],feel,0,with,goodwill,0
+Emma,611,Emma,0,[nsubj  nmod  conj  cc  conj],listened,0,0,0,0
+Emma,617,Emma,0,[nmod:tmod  advcl  nsubj  dep],was,0,0,0,0
+Emma,619,0,0,[dep  acl:relcl],Now,0,0,0,0
+Emma,624,Emma,0,[advcl  nsubj  ccomp],found,0,0,0,0
+Emma,628,Emma,first,[nsubj  dobj],thought,0,first,thought,0
+Emma,630,Emma,time,[mark  nsubj  aux  dobj  advcl],have,0,0,0,0
+Emma,652,he,Emma,[nsubj  ccomp  ccomp  dobj],said,0,0,0,0
+Emma,655,you,Emma,[advmod  nsubj  dobj],said,0,0,0,0
+Emma,660,0,Emma,[dobj],returned,0,0,0,0
+Emma,663,Emma,0,[advcl  nsubj  cop  acl:relcl],eyes,0,0,0,0
+Emma,667,Emma,it,[nsubj  dobj  xcomp],knew,0,0,0,0
+Emma,672,0,0,[case  nmod:poss  amod],feelings,0,s,feelings,0
+Emma,681,0,Emma,[dobj  advmod],said,0,0,0,0
+Emma,684,0,Emma,[dobj  nmod  advcl],furnished,0,0,0,0
+Emma,689,Emma,him,[nsubj  dobj],understood,0,0,0,0
+Emma,701,0,0,[appos],speeches,0,0,0,0
+Emma,707,She,0,[nsubj  cop  nmod:poss  amod  nmod  advcl],Emma,0,0,0,0
+Emma,707,She,0,[nsubj  cop  nmod:poss  amod  nmod  advcl],Emma,0,by,hand,0
+Emma,709,0,0,[nmod:poss  amod],fever,0,0,0,0
+Emma,723,Emma,thoughts,[advcl  nsubj  aux  advmod  dobj],had,0,0,0,0
+Emma,727,Emma,absence,[nsubj  aux  neg  dobj  nmod],deplore,0,0,0,0
+Emma,728,XVI,0,[nsubj  cop  det  amod  nmod  advcl],relief,0,to,Emma,0
+Emma,730,Emma,it,[nmod  advcl  nsubj  dobj  nmod  cc  conj],proposed,0,under,care,0
+Emma,730,Emma,it,[nmod  advcl  nsubj  dobj  nmod  cc  conj],proposed,0,to,friend,0
+Emma,747,Emma,0,[nsubj  xcomp  xcomp],thought,0,0,0,0
+Emma,748,0,0,[compound],warmly,0,0,0,0
+Emma,754,Emma,0,[ccomp  nsubj],cried,0,0,0,0
+Emma,757,0,0,[nmod:poss  amod  cc  conj],comforts,0,s,comforts,0
+Emma,760,Emma,0,[ccomp  nsubj  ccomp],Had,0,0,0,0
+Emma,761,0,0,[case  cc  conj  nmod  acl],ceremony,0,on,subject,0
+Emma,768,Emma,0,[nsubj  aux  nmod  nmod:tmod  advcl],thinking,0,of,it,0
+Emma,769,0,you,[mark  dobj  dep],tell,0,0,0,0
+Emma,784,regret,Emma,[nsubj  dobj],said,0,0,0,0
+Emma,787,lady,Emma,[advmod  nsubj  ccomp  dobj  dep],replied,0,peculiarly,replied,0
+Emma,794,Emma,fear,[mark  nmod  nsubj  aux  advmod  dobj  advcl],removed,0,0,0,0
+Emma,802,0,0,[det  nmod],feelings,0,0,0,0
+Emma,803,they,Emmanuel,[nsubj  aux  dobj],call,0,0,0,0
+Captain_Ahab,809,thou,0,[nsubj  nmod],want,0,0,0,2
+Captain_Ahab,814,0,0,[advmod  neg],Captain_Ahab,0,0,0,2
+Captain_Ahab,816,thou,mate,[advmod  nsubj  dobj  nmod],went,0,with,Captain_Ahab,2
+Captain_Ahab,817,Captain_Ahab,0,[nmod  nsubj  aux  cc  conj  nmod  nsubj  aux],thinking,0,of,what,2
+Captain_Ahab,817,Captain_Ahab,0,[nmod  nsubj  aux  cc  conj  nmod  nsubj  aux],thinking,0,of,what,2
+Captain_Ahab,823,I,0,[nsubj  nmod  cc  conj],asked,0,0,0,2
+Captain_Ahab,825,Captain_Ahab,0,[nsubj  cop  advmod  dep  ccomp],ready,0,0,0,2
+Captain_Ahab,836,Captain_Ahab,0,[advmod  advmod  nsubj  cop  case  neg  compound  nmod],unobservant,0,0,0,2
+Captain_Ahab,836,Captain_Ahab,0,[advmod  advmod  nsubj  cop  case  neg  compound  nmod],unobservant,0,of,forms,2
+Captain_Ahab,846,0,0,[case  nmod  acl],all,0,for,Captain_Ahab,2
+Captain_Ahab,847,0,0,[det  nmod],ears,0,of,Captain_Ahab,2
+Captain_Ahab,849,0,Captain_Ahab,[mark  dobj],kidnap,0,0,0,2
+Captain_Ahab,850,Captain_Ahab,Enderby,[nmod  nsubj  aux  dobj],quitted,0,0,0,2
+Captain_Ahab,850,Captain_Ahab,Enderby,[nmod  nsubj  aux  dobj],quitted,0,in,which,2
+Captain_Ahab,854,Captain_Ahab,0,[advmod  nsubj  advmod  xcomp],came,0,0,0,2
+Captain_Ahab,860,0,0,[det  nmod],leg,0,for,Captain_Ahab,2
+Moby_Dick,867,0,0,[det  amod  nmod],lance,0,0,0,2
+Moby_Dick,867,0,0,[det  amod  nmod],lance,0,sharp,lance,2
+Moby_Dick,867,0,0,[det  amod  nmod],lance,0,for,Moby_Dick,2
+Moby_Dick,868,I,0,[dep  neg  nmod  nsubj  cop  nmod  advmod  dep],game,0,0,0,2
+Moby_Dick,873,whale,0,[mark  nsubj  aux  aux  cop  neg  nmod],other,0,0,0,2
+Moby_Dick,877,few,0,[dep  dep  nsubj  nmod  nmod  advcl  cc  conj],recalled,0,few,recalled,2
+Moby_Dick,885,Moby_Dick,0,[nmod  nmod  nsubjpass  aux  auxpass  advmod  advmod  advcl],descried,0,0,0,2
+Moby_Dick,885,Moby_Dick,0,[nmod  nmod  nsubjpass  aux  auxpass  advmod  advmod  advcl],descried,0,For,there,2
+Moby_Dick,890,0,0,[mark  nmod],think,0,of,Moby_Dick,2
+Moby_Dick,893,0,0,[amod  det  appos],whale,0,same,whale,2
+Moby_Dick,895,It,0,[nsubj  cop],Moby_Dick,0,0,0,2
+Moby_Dick,900,yet,0,[nsubj  cop  det],Moby_Dick,0,0,0,2
+Moby_Dick,902,I,Moby_Dick,[nsubj  dobj  cc  conj  mark  mark  aux  dobj],seen,0,0,0,2
+Moby_Dick,903,Moby_Dick,0,[mark  nsubj  advmod  xcomp  cc  conj],was,0,0,0,2
+Moby_Dick,920,Ahab,chase,[dep  advmod  nsubj  dobj  nmod],gives,0,to,Moby_Dick,2
+Moby_Dick,923,0,0,[nmod:poss  amod],reappearance,0,s,reappearance,2
+Moby_Dick,932,Moby_Dick,0,[advmod  mark  advcl  nsubj  aux  cc  conj],turned,0,0,0,2
+Caesar,941,0,0,[dep],s,0,0,0,2
+Caesar,945,0,0,[dep],s,0,0,0,2
+Caesar,949,us,Caesar,[mark  nsubj  mark  iobj  dobj],give,unto,0,0,2
+Caesar,952,0,0,[nmod  acl],tribute,0,to,Caesar,2
+Caesar,953,himself,0,[nsubj  det  compound  nmod],speaketh,0,',Caesar,2
+Caesar,954,0,0,[neg  nmod],king,0,but,Caesar,2
+Caesar,955,he,0,[mark  nsubj  nmod],came,0,0,0,2
+Caesar,955,he,0,[mark  nsubj  nmod],came,0,to,Caesarea,2
+Caesar,958,24,0,[nsubj  nmod  nmod],entered,0,after,they,2
+Caesar,962,0,0,[case  det  nmod],decrees,0,0,0,2
+Caesar,967,they,0,[advmod  nsubj  nmod  cc  conj],came,0,0,0,2
+Caesar,967,they,0,[advmod  nsubj  nmod  cc  conj],came,0,to,Caesarea,2
+Caesar,972,0,0,[case  nmod:poss  amod  compound],seat,0,s,seat,2
+Caesar,976,Agrippa,Caesarea,[nsubj  dobj  xcomp],came,0,0,0,2
+Caesar,978,he,Caesar,[mark  nsubj  aux  neg  dobj],appealed,0,0,0,2
+Caesar,979,thou,0,[nsubjpass  aux  auxpass  nmod  cc  conj],brought,0,before,Caesar,2
+Caesar,1004,0,0,[case  det  amod  nmod  nmod  dep],respect,0,0,0,2
+Caesar,1007,Caesar,0,[nsubj  nmod],saide,0,to,me,2
+Caesar,1011,What,0,[nsubj  aux  cop  case  det],Caesar,0,0,0,2
+Caesar,1018,him,0,[nsubj  neg],Caesar,0,0,0,2
+Caesar,1019,I,0,[advcl  nmod  nsubj  cop],Caesar,0,0,0,2
+Caesar,1025,Caesar,0,[nsubj  xcomp],fell,0,0,0,2
+Caesar,1030,Caesar,0,[nsubj  xcomp  dep  ccomp  cc  conj],seat,0,0,0,2
+Caesar,1034,0,Caesar,[mark  dobj],establish,0,0,0,2
+Caesar,1037,Caesar,0,[mark  nsubj  dep  nsubj],may,0,0,0,2
+Caesar,1042,Cassius,0,[ccomp  nsubj  parataxis  cop  advmod  det  nmod],Limbe,0,0,0,2
+Caesar,1048,Caesar,0,[mark  nsubj  aux  compound:prt  nmod  cc  advmod  conj],come,0,0,0,2
+Caesar,1048,Caesar,0,[mark  nsubj  aux  compound:prt  nmod  cc  advmod  conj],come,0,to,day,2
+Caesar,1052,They,Caesar,[nsubj  dobj],murther,0,0,0,2
+Caesar,1064,0,0,[det  nmod],Crowne,0,0,0,2
+Caesar,1067,Caesar,0,[nsubj  nmod  ccomp  cc  conj],bids,0,for,loue,2
+Caesar,1068,0,0,[compound  compound  compound  compound  compound],Publius,0,0,0,2
+Caesar,1069,Ligarius,0,[nsubj  nsubj  cop  nmod:poss  nmod  advcl],re,0,',ne,2
+Caesar,1073,0,0,[cop  neg  det  amod  dep  appos],Caesar,0,0,0,2
+Caesar,1074,Caesar,0,[nsubj  ccomp  parataxis],take,0,0,0,2
+Caesar,1078,Caesar,What,[dobj  nsubj],doth,0,0,0,2
+Caesar,1082,0,0,[expl  nmod  advcl],Speake,0,to,Caesar,2
+Caesar,1084,0,0,[compound  appos  appos  appos  appos  appos  appos  appos  appos  appos  appos  cc  conj],Publius,0,0,0,2
+Caesar,1087,0,0,[det  compound  compound],neerer,0,0,0,2
+Caesar,1097,0,0,[case  amod  compound],eare,0,0,0,2
+Caesar,1099,0,0,[compound],pardon,0,0,0,2
+Caesar,1104,0,0,[case  compound  compound  compound  compound],Bru,0,0,0,2
+Caesar,1133,0,0,[advmod  nmod],done,0,0,0,2
+Caesar,1137,0,0,[case  compound  acl:relcl],Glories,0,0,0,2
+Caesar,1138,Caesar,0,[dep  nsubj  cop  det  compound  nummod  ccomp  parataxis],Nay,0,blest,Nay,2
+Caesar,1143,0,0,[compound],hath,0,0,0,2
+Caesar,1146,0,0,[amod  compound],wounds,0,0,0,2
+Caesar,1146,0,0,[amod  compound],wounds,0,dead,wounds,2
+Caesar,1150,0,0,[det  amod  appos  amod],men,0,0,0,2
+Caesar,1155,Caesar,0,[nmod  advcl  nsubj],fell,0,in,Mantle,2
+Caesar,1163,Heere,0,[nsubj  cop  det  dep],Caesar,0,0,0,2
+Caesar,1169,thou,st,[mark  nsubj  dobj  nmod  parataxis  advmod  nsubj],did,0,0,0,2
+Caesar,1173,Caska,Caesar,[nsubj  nmod  dobj],behinde,0,like,Curre,2
+Caesar,1178,Caesar,0,[nsubj  advcl  nsubj  advmod  cc  conj],walkes,0,0,0,2
+Caesar,1179,0,0,[det  nmod],Ghost,0,0,0,2
+Caesar,1179,0,0,[det  nmod],Ghost,0,of,Caesar,2
+Caesar,1184,Anthonies,0,[nsubj  cop  case],Caesar,0,0,0,2
+Hamlet,1188,0,what,[dobj  nmod],seene,0,to,Hamlet,0
+Hamlet,1199,Beleeue,you,[nmod  nsubjpass  advmod  aux  auxpass  dobj],giuen,0,0,0,0
+Hamlet,1202,0,0,[case  compound  appos  appos  appos],Dane,0,0,0,0
+Hamlet,1206,blason,0,[cc  nsubj  aux  neg  cop  case  nmod  ccomp],eares,0,0,0,0
+Hamlet,1208,0,0,[det  nmod  dep],will,0,0,0,0
+Hamlet,1208,0,0,[det  nmod  dep],will,0,of,Queene,0
+Hamlet,1211,0,0,[amod  det  nmod],man,0,poore,man,0
+Hamlet,1216,0,0,[nmod],this,0,0,0,0
+Hamlet,1218,Hamlet,0,[nsubj  cop  det  nmod],Prince,0,of,Starre,0
+Hamlet,1230,I,nothing,[nsubj  dobj  nmod],haue,0,0,0,0
+Hamlet,1238,0,0,[neg  amod],Hamlet,0,sweet,Hamlet,0
+Hamlet,1246,Who,0,[nsubj  nmod],cals,0,on,Hamlet,0
+Hamlet,1253,I,part,[mark  dobj  nsubjpass  aux  auxpass  cc  conj],greeted,0,0,0,0
+Hamlet,1255,0,0,[advmod  nmod:poss  nmod  appos  dep],Lord,0,0,0,0
+Hamlet,1262,0,Hamlet,[dobj  advmod],Enter,0,0,0,0
+Hamlet,1281,Hamlet,0,[nsubj  nmod  nsubj  aux  xcomp],do,0,thou,slaine,0
+Hamlet,1281,Hamlet,0,[nsubj  nmod  nsubj  aux  xcomp],do,0,good,do,0
+chair,1295,0,0,[advmod  nmod],sinking,0,0,0,1
+chair,1305,Charles,chair,[nsubj  cc  conj  dobj],ring,0,0,0,1
+chair,1311,0,0,[det  compound],close,0,0,0,1
+chair,1313,0,0,[mark  advmod  nmod  nmod],moving,0,to,another,1
+chair,1317,0,0,[compound:prt  nmod],fell,0,in,chair,1
+chair,1320,0,0,[nmod],sitting,0,in,chairs,1
+chair,1335,he,himself,[nsubj  dobj  nmod  nmod],threw,0,into,chair,1
+chair,1338,0,0,[advmod  case  nmod],one,0,of,chairs,1
+chair,1340,who,0,[nsubj  nmod  nmod],sat,0,0,0,1
+chair,1345,chair,0,[nsubj  cop  cc  conj],empty,0,0,0,1
+chair,1346,0,0,[advmod  nmod],falling,0,over,chair,1
+chair,1349,he,0,[nsubj  advmod  nmod],leaned,0,0,0,1
+chair,1350,0,0,[case  det  dep],deck,0,0,0,1
+chair,1351,0,0,[nmod  nmod],fell,0,on,knees,1
+chair,1351,0,0,[nmod  nmod],fell,0,beside,chair,1
+chair,1354,two,0,[nsubj  nmod  compound:prt  nmod],shot,0,through,floor,1
+chair,1359,chairman,0,[nsubj  nmod  cc  conj],rose,0,like,automaton,1
+chair,1360,chairman,mouth,[mark  nsubj  aux  dobj],opening,0,0,0,1
+chair,1363,0,chairman,[ccomp  dobj  nmod  dep  dep],said,0,dignified,said,1
+chair,1368,himself,0,[nsubj  advmod  nmod],established,0,0,0,1
+chair,1368,himself,0,[nsubj  advmod  nmod],established,0,in,chair,1
+chair,1371,He,chairs,[nsubj  dobj  nmod  cc  conj  parataxis],set,0,for,both,1
+chair,1373,0,boyish,[nmod  dobj],sitting,0,in,chair,1
+chair,1379,0,0,[case  nummod  compound  nmod],statues,0,0,0,1
+chair,1380,Secretary,0,[nsubj  nmod  nmod  cc  conj],turned,0,towards,Sunday,1
+chair,1388,Susan,0,[advcl  nsubj  nmod],retired,0,0,0,1
+chair,1391,Susan,0,[nsubj  compound:prt  nmod  cc  conj  conj],sat,0,in,chair,1
+chair,1392,0,0,[case  nmod],supper,0,0,0,1
+chair,1404,he,which,[dobj  nsubj  aux  advmod  nmod],hung,0,0,0,1
+chair,1407,0,chair,[mark  dobj],take,0,0,0,1
+chair,1409,0,0,[case  nmod],death,0,into,chair,1
+chair,1411,times,aldermen,[nsubj  dep  dobj  nmod],like,0,0,0,1
+chair,1420,She,0,[nsubj  nmod  nmod],sits,0,in,armchair,1
+seat,1426,0,0,[acl:relcl],Mr,0,0,0,1
+seat,1428,He,them,[nsubj  dobj  advmod  cc  conj],joined,0,0,0,1
+seat,1441,she,0,[nmod  nsubj  aux  aux  nmod],returning,0,with,what,1
+seat,1441,she,0,[nmod  nsubj  aux  aux  nmod],returning,0,to,seat,1
+seat,1442,Bates,0,[nsubjpass  aux  auxpass  nmod  nmod  advcl],heard,0,0,0,1
+seat,1450,Anne,seat,[nsubj  dobj  nmod  nmod  nmod],found,0,0,0,1
+seat,1451,Louisa,seat,[nsubj  aux  dobj  advmod],found,0,0,0,1
+seat,1455,He,0,[nsubj  advcl  nmod],looked,0,0,0,1
+seat,1457,they,0,[mark  nsubj  nmod],passed,0,0,0,1
+seat,1465,0,0,[nmod:poss  advcl],hold,0,0,0,1
+seat,1473,Lucy,table,[dep  nsubj  advmod  dobj  nmod  cc  conj],drew,0,disappointed,drew,1
+seat,1474,Lucy,room,[nsubj  dobj  nmod  nmod  cc  conj],made,0,for,her,1
+seat,1474,Lucy,room,[nsubj  dobj  nmod  nmod  cc  conj],made,0,with,attention,1
+seat,1476,0,0,[mark  advmod  nmod  cc  conj],stirring,0,from,seat,1
+seat,1478,0,0,[cc  conj  cc  conj],near,0,0,0,1
+seat,1479,0,0,[acl],Marianne,0,0,0,1
+seat,1485,0,0,[nmod],returned,0,0,0,1
+seat,1494,thou,seat,[nsubj  aux  dobj  nmod],put,0,0,0,1
+seat,1495,that,0,[nsubj  cop  case  det  nmod  nmod],ark,0,0,0,1
+seat,1495,that,0,[nsubj  cop  case  det  nmod  nmod],ark,0,over,testimony,1
+seat,1495,that,0,[nsubj  cop  case  det  nmod  nmod],ark,0,before,seat,1
+seat,1499,0,0,[case  det  case  det  amod  nmod  dep  nmod],end,0,on,side,1
+seat,1500,0,0,[nmod  nmod  advcl],covered,0,over,seat,1
+seat,1505,0,0,[parataxis  cc  dep  nmod  nummod  acl:relcl],16,0,0,0,1
+seat,1509,Eli,0,[advmod  nsubj  nmod  nmod],sat,0,upon,seat,1
+seat,1509,Eli,0,[advmod  nsubj  nmod  nmod],sat,0,by,post,1
+seat,1510,Eli,0,[nsubj  nmod  nmod  xcomp],sat,0,upon,seat,1
+seat,1510,Eli,0,[nsubj  nmod  nmod  xcomp],sat,0,by,wayside,1
+seat,1511,he,0,[mark  nsubj  nmod  nmod],fell,0,by,side,1
+seat,1513,king,0,[cc  nsubj  nmod  advmod  nmod  cc  conj  cc  conj  nsubj  nmod  cc  conj],sat,0,upon,seat,1
+seat,1513,king,0,[cc  nsubj  nmod  advmod  nmod  cc  conj  cc  conj  nsubj  nmod  cc  conj],sat,0,empty,sat,1
+seat,1518,0,seat,[dobj  nmod],set,0,above,princes,1
+seat,1528,0,0,[det  amod  nmod  cc  conj],rooms,0,at,feasts,1
+seat,1533,ye,seats,[dep  nsubj  dobj],love,0,0,0,1
+seat,1539,0,0,[nmod],sitting,0,0,0,1
+seat,1539,0,0,[nmod],sitting,0,on,seat,1
+seat,1548,which,0,[nsubj  nmod  nmod],sat,0,0,0,1
+seat,1548,which,0,[nsubj  nmod  nmod],sat,0,before,God,1
+seat,1559,0,seat,[dobj  nmod],took,0,0,0,1
+seat,1564,0,0,[det  nmod],sides,0,0,0,1
+seat,1565,0,him,[dobj  compound:prt  nmod],dragging,0,0,0,1
+seat,1568,0,0,[case  det  cc  conj  nmod  acl],monkey,0,with,precision,1
+seat,1569,0,0,[compound:prt  nmod],fell,0,0,0,1
+seat,1569,0,0,[compound:prt  nmod],fell,0,into,seat,1
+seat,1573,which,him,[nsubj  advmod  dobj  nmod  nmod],pinned,0,with,point,1
+seat,1576,0,0,[nmod],one,0,0,0,1
+seat,1579,0,0,[case  det  dep  dep],steering,0,0,0,1
+seat,1581,0,0,[nmod],studded,0,with,seats,1
+seat,1584,0,0,[case  det  amod  nmod],end,0,0,0,1
+seat,1586,0,0,[nmod],Or,0,on,seat,1
+seat,1588,0,0,[case  det  nmod],end,0,0,0,1
+seat,1588,0,0,[case  det  nmod],end,0,of,seat,1
+seat,1589,0,seat,[dobj  compound:prt  nmod],flinging,0,0,0,1
+seat,1591,0,0,[nmod],padded,0,0,0,1
+seat,1602,0,emphasis,[nmod  nmod  advcl  dobj],had,0,in,seats,1
+seat,1604,half,0,[nsubj  nmod],rose,0,0,0,1
+seat,1611,0,0,[compound:prt  nmod],got,0,from,seat,1
+seat,1614,0,0,[nmod],sat,0,0,0,1
+seat,1617,half,0,[nsubj  nmod],rising,0,0,0,1
+seat,1619,they,0,[nsubj  nmod  nmod  cc  conj],lay,0,upon,seat,1
+seat,1625,Susan,0,[advmod  nsubj  nmod  advcl],rose,0,0,0,1
+seat,1635,0,0,[acl],Piedro,0,0,0,1
+seat,1637,0,seat,[dobj],take,0,0,0,1
+seat,1652,0,0,[nmod  nmod  cop  det  amod  nmod],seat,0,0,0,1
+seat,1652,0,0,[nmod  nmod  cop  det  amod  nmod],seat,0,On,side,1
+seat,1665,0,0,[nmod  dep  ccomp],Stubb,0,0,0,1
+seat,1669,oarsman,them,[mark  nsubj  dobj  nmod],felt,0,0,0,1
+seat,1676,0,0,[nmod:poss  amod],form,0,0,0,1
+seat,1684,seat,0,[dep  nsubj  cop  amod  nmod],Damascus,0,on,banks,1
+seat,1706,0,0,[appos],Heaven,0,0,0,1
+seat,1716,0,0,[compound  nmod],worthier,0,0,0,1
+seat,1717,0,0,[case  dep],earth,0,0,0,1
+seat,1718,0,0,[nmod  acl],Nature,0,0,0,1
+seat,1718,0,0,[nmod  acl],Nature,0,from,seat,1
+seat,1723,0,0,[case  case  det  dep],mercy,0,0,0,1
+seat,1734,memory,seate,[mark  nsubj  dobj  nmod  parataxis],holds,0,In,Globe,1
+seat,1740,What,0,[nsubj  nmod],ride,0,0,0,1
+seat,1742,0,0,[case  nmod:poss  amod  nmod  cc  conj  case  det],place,0,in,room,1
+seat,1744,who,men,[nsubj  advmod  dobj  nmod  cc  conj],compels,0,0,0,1
+seat,1747,0,0,[case  det  acl:relcl],hand,0,0,0,1
+seat,1749,0,0,[det  amod  amod  amod  amod],Mother,0,seated,Mother,1
+table,1753,0,0,[case  det  amod],home,0,comfortable,home,1
+table,1754,0,0,[amod],age,0,suitable,age,1
+table,1755,0,0,[amod],papa,0,0,0,1
+table,1759,0,0,[case  det  amod  acl:relcl],family,0,0,0,1
+table,1761,0,0,[det  dep],card,0,0,0,1
+table,1764,0,0,[csubj  aux  cop  nmod],acceptable,0,0,0,1
+table,1769,0,0,[cop  advmod],suitable,0,0,0,1
+table,1771,0,0,[mark  cop  nmod],uncomfortable,0,with,those,1
+table,1775,Mr,0,[nsubj  cop  det  amod  amod  cc  conj],man,0,0,0,1
+table,1776,0,0,[neg],respectable,0,0,0,1
+table,1777,0,0,[mark  auxpass  nmod  dep],married,0,respectable,married,1
+table,1778,0,0,[cop  nmod],indubitable,0,to,me,1
+table,1782,0,piece,[advmod  mark  dobj  nmod],leave,0,0,0,1
+table,1783,0,0,[det  amod  appos  acl:relcl],establishment,0,0,0,1
+table,1788,0,it,[dobj  nmod],replacing,0,0,0,1
+table,1789,0,0,[det  amod  acl],visit,0,charitable,visit,1
+table,1791,0,0,[case  det  amod],scheme,0,0,0,1
+table,1794,0,0,[case  amod],talk,0,comfortable,talk,1
+table,1798,us,0,[nsubj  det:predet  det  amod],report,0,0,0,1
+table,1801,0,0,[case  det  amod  nmod],end,0,of,table,1
+table,1809,0,0,[case  cc  conj],evident,0,0,0,1
+table,1823,your,0,[mark  nsubj  neg  cop  advmod  nmod],comfortable,0,0,0,1
+table,1829,0,0,[det:predet  det  amod],home,0,0,0,1
+table,1831,truth,0,[nsubj  aux  cop  nmod  cc  conj  dep  parataxis],palatable,0,0,0,1
+table,1833,0,0,[mark  xcomp],make,0,acceptable,make,1
+table,1837,it,0,[nmod  nsubj  cop],inevitable,0,As,going,1
+table,1840,tables,0,[nsubjpass  aux  auxpass  compound:prt  nmod  nmod],set,0,in,style,1
+table,1845,0,0,[cop],indisputable,0,0,0,1
+table,1849,her,0,[mark  nsubjpass  auxpass  nmod  cc  conj],seated,0,at,table,1
+table,1850,this,0,[nsubjpass  auxpass  nmod  nmod],left,0,for,nothing,1
+table,1855,She,table,[nsubj  iobj  dobj  cc  conj],gave,round,0,0,1
+table,1859,0,0,[det  compound  nmod],spread,0,in,room,1
+table,1861,0,0,[case  det  amod  nmod  acl],rooms,0,0,0,1
+table,1861,0,0,[case  det  amod  nmod  acl],rooms,0,in,Abbey,1
+table,1865,0,0,[det  amod],meal,0,0,0,1
+table,1865,0,0,[det  amod],meal,0,comfortable,meal,1
+table,1868,0,0,[det  amod],business,0,0,0,1
+table,1868,0,0,[det  amod],business,0,unaccountable,business,1
+table,1870,They,0,[nsubj  cop  dep  advmod  advmod  nmod  cc  conj  nmod  ccomp],respectable,0,of,themselves,1
+table,1872,he,0,[nsubjpass  aux  advmod  auxpass  xcomp],kept,0,comfortable,kept,1
+table,1878,0,0,[case  det  amod  nmod],persuasion,0,comfortable,persuasion,1
+table,1881,She,0,[nsubj  aux  cop  cc  conj  cc  conj],respectable,0,0,0,1
+table,1882,0,0,[amod  nmod],family,0,0,0,1
+table,1884,She,0,[nsubj  cop  det  amod  amod  amod  cc  conj],woman,0,benevolent,woman,1
+table,1885,0,0,[appos  appos  appos  appos  dep],Journeys,0,0,0,1
+table,1886,who,0,[nsubj  aux  xcomp],made,0,0,0,1
+table,1887,0,0,[case  amod],intimates,0,suitable,intimates,1
+table,1889,comfortable,what,[dobj  nsubj  ccomp],account,0,comfortable,account,1
+table,1892,0,0,[cc  conj],friendly,0,hospitable,friendly,1
+table,1893,we,0,[mark  nsubj  advmod  cop  case  det  amod  nmod  advcl],feeling,0,comfortable,feeling,1
+table,1894,0,0,[nmod:poss  amod  amod  nmod],forms,0,',Musgrove,1
+table,1894,0,0,[nmod:poss  amod  amod  nmod],forms,0,s,forms,1
+table,1898,Musgrove,0,[nsubj  cop  case  det  amod  amod  appos  nmod  cc  conj],size,0,comfortable,size,1
+table,1900,they,0,[ccomp  nsubj  cop  advmod  advmod],comfortable,0,0,0,1
+table,1904,0,0,[det  amod  nmod  case  nmod:poss  amod],seat,0,0,0,1
+table,1907,0,0,[amod  dep  nmod  cc  conj],the,0,to,table,1
+table,1918,that,0,[nsubj  cop  nmod],uncomfortable,0,0,0,1
+table,1924,0,0,[case  det  appos],world,0,0,0,1
+table,1925,it,0,[cc  advmod  nsubj  cop  advmod  advmod  neg  dep  dep  xcomp],comfortable,0,easy,comfortable,1
+table,1929,0,0,[case  det  amod  nmod],sufferings,0,0,0,1
+table,1933,cards,0,[nsubjpass  auxpass  nmod  nmod  cc  conj  cc  conj],laid,0,with,smile,1
+table,1934,Materials,0,[advmod  advcl  nsubj  cop  case  nmod],hand,0,on,table,1
+table,1935,eyes,0,[mark  nsubj  advmod  nmod  xcomp],glanced,0,towards,table,1
+table,1938,0,room,[advmod  dobj  nmod],crossing,0,0,0,1
+table,1939,she,0,[nmod  nmod  nsubj  aux  cc  conj],trust,0,at,table,1
+table,1942,0,0,[det  amod  amod],man,0,0,0,1
+table,1942,0,0,[det  amod  amod],man,0,respectable,man,1
+table,1943,0,0,[mark  xcomp],make,0,comfortable,make,1
+table,1945,0,0,[xcomp],make,0,0,0,1
+table,1947,hundred,0,[nsubj  nsubj  aux  xcomp  parataxis],make,0,comfortable,make,1
+table,1952,0,0,[case  det  amod  nmod],dwelling,0,0,0,1
+table,1959,home,0,[mark  nsubj  cop  cc  conj  conj],uncomfortable,0,0,0,1
+table,1960,0,0,[advcl  expl  aux  cop  nmod:npmod],unsuitable,0,0,0,1
+table,1962,0,0,[dep],looking,0,respectable,looking,1
+table,1963,he,0,[mark  nsubj  cop  det  amod  amod],man,0,respectable,man,1
+table,1963,he,0,[mark  nsubj  cop  det  amod  amod],man,0,young,man,1
+table,1966,merest,0,[nmod  nsubj  ccomp],shed,0,as,stable,1
+table,1966,merest,0,[nmod  nsubj  ccomp],shed,0,to,stable,1
+table,1969,0,0,[case  det  amod  nmod  cc  conj],size,0,0,0,1
+table,1970,affliction,0,[cc  dep  nsubj  cop  cc  conj],indubitable,0,0,0,1
+table,1972,0,place,[dobj  nmod  advcl],took,0,0,0,1
