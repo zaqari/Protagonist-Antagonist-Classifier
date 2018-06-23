@@ -111,48 +111,12 @@ subjxverb = tf.contrib.layers.crossed_column(
 	hash_bucket_size=int(1e6),
 	combiner='sum')
 
-subjxdobj = tf.contrib.layers.crossed_column(
-	[subj, dobj],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
 #0.489
 dobjxverb = tf.contrib.layers.crossed_column(
 	[dobj, verb],
 	hash_bucket_size=int(1e6),
 	combiner='sum')
 
-#0.579
-dobjxobl1xobl2 = tf.contrib.layers.crossed_column(
-	[dobj, obl1, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-verbxobl1 = tf.contrib.layers.crossed_column(
-	[verb, obl1],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-verbxobl2 = tf.contrib.layers.crossed_column(
-	[verb, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-verbxobl1xobl2 = tf.contrib.layers.crossed_column(
-	[verb, obl1, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-###MOVEMENT FROM VERB FOCAL TO THETA-ROLE FOCAL MODEL
-#The following are new features that could be used in the DNN in order to make
-# decisions pertaining to categorization of examples. The percentage above each
-# one indicates the total variance across the entiretyof the text. Ideally, DNN
-# featues will be around 40-50%, with wide features being low (~10%). To date,
-# subj and obj are the only features with that low a variance. The real paradigm
-# shift lies in the realization that verb semantics are in fact less useful for
-# classification than previoulsy thought with the temporal, toy-data set. From
-# here on, we'll be focusing on what would traditionally be the theta-roles
-# for categorical differentiation.
 
 #0.442
 obl1xobl2 = tf.contrib.layers.crossed_column(
@@ -160,166 +124,11 @@ obl1xobl2 = tf.contrib.layers.crossed_column(
 	hash_bucket_size=int(1e6),
 	combiner='sum')
 
-#0.449
-synxsubj = tf.contrib.layers.crossed_column(
-	[syn, subj],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.424
-synxdobj = tf.contrib.layers.crossed_column(
-	[syn, dobj],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.587
-synxobl1 = tf.contrib.layers.crossed_column(
-	[syn, obl1],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-synxverb = tf.contrib.layers.crossed_column(
-	[syn, verb],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.739, but very low categorical intersection.
-trefxsyn = tf.contrib.layers.crossed_column(
-	[syn, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.595
-synxobl2 = tf.contrib.layers.crossed_column(
-	[syn, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.245
-subjxobl1 = tf.contrib.layers.crossed_column(
-	[subj, obl1],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.331
-subjxobl2 = tf.contrib.layers.crossed_column(
-	[subj, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.204
-dobjxobl1 = tf.contrib.layers.crossed_column(
-	[dobj, obl1],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.307
-dobjxobl2 = tf.contrib.layers.crossed_column(
-	[dobj, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.369
-trefxdobj = tf.contrib.layers.crossed_column(
-	[dobj, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.416
-trefxsubj = tf.contrib.layers.crossed_column(
-	[subj, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.496
-trefxobl1 = tf.contrib.layers.crossed_column(
-	[obl1, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.479
-trefxobl2 = tf.contrib.layers.crossed_column(
-	[obl2, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-#0.531
-trefxverb = tf.contrib.layers.crossed_column(
-	[verb, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-trefxsubjxdobj = tf.contrib.layers.crossed_column(
-	[subj, dobj, tref],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-trefxverbxdobj = tf.contrib.layers.crossed_column(
-	[verb, tref, dobj],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-trefxverbxsubj = tf.contrib.layers.crossed_column(
-	[verb, tref, subj],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-trefxverbxsubjxdobj = tf.contrib.layers.crossed_column(
-	[verb, tref, subj, dobj],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
-trefxobl1xobl2 = tf.contrib.layers.crossed_column(
-	[verb, tref, obl1, obl2],
-	hash_bucket_size=int(1e6),
-	combiner='sum')
-
 ###VALIDATION MONITORING:
 #The following are the metrics and set-up for the validation monitor such that
 # we can track the progress of the system overtime using Tensorboard.
 
-###OPENING TENSORBOARD:
-#Now that we have a way of monitoring everything, we can use TENSORBOARD to
-# visually track the progress of KellYGEN as it iterates over the training data.
-# To do this, type the following into the terminal:
-#             tensorboard --logdir=/tmp/kGEN/
-# after doing this, it should prompt you with a port number in yellow-ish.
-# Open up any browser and type in http://0.0.0.0:<port number> and it'll open
-# tensorboard.
-
 wide_collumns = []
-
-##PREVIOUS deep_columns VALUES
-#Similar to the wide_columns, deep_columns are integral to making things work.
-# Here are a couple of previous iterations of this set-up.
-#       #EX5#   WITH [] wide_columns    .739 acc        dnn_units=[23]
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(dobjxverb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(dobjxobl1, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(subjxdobj, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(verb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(syn, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(synxsubj, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(synxdobj, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(synxverb, dimension=nDIMENSION[0]), #TREF x TH-role ID tf.contrib.layers.embedding_column(tref, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(trefxverb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(trefxsyn, dimension=nDIMENSION[0]),        
-#       #EX9#   Dimensions=9D          .781-.790 acc    dnn_units=[23]
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(dobjxverb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(synxsubj, dimension=nDIMENSION[0]),  tf.contrib.layers.embedding_column(verb, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(obl1, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(syn, dimension=nDIMENSION[0]), #TREF x TH-role ID tf.contrib.layers.embedding_column(tref, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(trefxdobj, dimension=nDIMENSION[0]), tf.contrib.layers.embedding_column(trefxsubj, dimension=nDIMENSION[0]),        
-#       #EX10#  Dimensions=10D          .787 acc         dnn_units=[23]
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxverb, dimension=nD), tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(obl1xobl2, dimension=nD), #TREF x TH-role ID tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
-#       #EX11#  Dimensions=10D          .787 acc        dnn_units=[23]
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxverb, dimension=nD), tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(obl2, dimension=nD), #TREF x TH-role ID tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
-#       #EX12#  Dimensions=9D           .790 acc        dnn_units=[23]
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxverb, dimension=nD), tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(obl2, dimension=nD), #TREF x TH-role ID tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
-#       #EX13#  Dimanesions=
-#               #Frame-Semantic ID tf.contrib.layers.embedding_column(subjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxobl2, dimension=nD), tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(obl1xobl2, dimension=nD), #Lexical Reference Points tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(dobj, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(obl2, dimension=nD), #TREF x TH-role ID tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD), tf.contrib.layers.embedding_column(trefxobl2, dimension=nD),
-#       #EX16#  Dimensions=12D          .787 acc
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxverb, dimension=nD), tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(obl1xobl2, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(dobj, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
-#       #EX17#  Dimensions=9D           .789-.7983 acc
-#               tf.contrib.layers.embedding_column(subjxverb, dimension=nD), tf.contrib.layers.embedding_column(dobjxverb, dimension=nD), tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(obl1xobl2, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(tref, dimension=nD),
-#       #EX18#  Dimensions=10D          .792 acc
-#               #Frame-Semantic Reference (+7) tf.contrib.layers.embedding_column(synxsubj, dimension=nD), tf.contrib.layers.embedding_column(obl1xobl2, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(dobj, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), #TREF RELATED ELEMENTS (+3) tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
-#       #EX19#  Dimensions=7D           .778 acc
-#               tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD), tf.contrib.layers.embedding_column(trefxobl2, dimension=nD), tf.contrib.layers.embedding_column(trefxverb, dimension=nD),
-#       #EX20#  Dimensions=11D          .798            dnn_units=[77]  dropout=.4
-#               #Frame-Semantic Reference (+6) tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(dobj, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(obl2, dimension=nD), #TREF RELATED ELEMENTS (+5) tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD), tf.contrib.layers.embedding_column(trefxverb, dimension=nD), tf.contrib.layers.embedding_column(trefxobl2, dimension=nD),
-#       #EX21#  Dimensions=12D          .801 acc        dnn_units=[77]  dropout=.4
-#               #Frame-Semantic Reference (+6) tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(dobj, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(obl2, dimension=nD), #TREF RELATED ELEMENTS (+6) tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD), tf.contrib.layers.embedding_column(trefxobl2, dimension=nD), tf.contrib.layers.embedding_column(trefxverbxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxverbxsubj, dimension=nD),
-#       #EX22#  Dimensions=13D          .804 acc        dnn_units=[77]  dropout=.4      steps=31000
-#               #Frame-Semantic Reference (+6) tf.contrib.layers.embedding_column(verb, dimension=nD), tf.contrib.layers.embedding_column(syn, dimension=nD), tf.contrib.layers.embedding_column(subj, dimension=nD), tf.contrib.layers.embedding_column(dobj, dimension=nD), tf.contrib.layers.embedding_column(obl1, dimension=nD), tf.contrib.layers.embedding_column(obl2, dimension=nD), #TREF RELATED ELEMENTS (+6) tf.contrib.layers.embedding_column(tref, dimension=nD), tf.contrib.layers.embedding_column(trefxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxsubj, dimension=nD), tf.contrib.layers.embedding_column(trefxobl2, dimension=nD), tf.contrib.layers.embedding_column(trefxverbxdobj, dimension=nD), tf.contrib.layers.embedding_column(trefxverbxsubj, dimension=nD), tf.contrib.layers.embedding_column(trefxobl1xobl2, dimension=nD),
-
-
 
 deep_columns = [
         ###GEN NOTE: All elements not listed as TEST-SET are tried and true,
@@ -328,22 +137,12 @@ deep_columns = [
         #Frame-Semantic Reference (+6)
         tf.contrib.layers.embedding_column(verb, dimension=nD),
         tf.contrib.layers.embedding_column(syn, dimension=nD),
-        #tf.contrib.layers.embedding_column(subj, dimension=nD),
-        #tf.contrib.layers.embedding_column(dobj, dimension=nD),
         tf.contrib.layers.embedding_column(obl1, dimension=nD),
-        #tf.contrib.layers.embedding_column(obl2, dimension=nD),
-
-        #TREF RELATED ELEMENTS (+7)
+        
         tf.contrib.layers.embedding_column(tref, dimension=nD),
-        #tf.contrib.layers.embedding_column(trefxdobj, dimension=nD),
-        #tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
-        #tf.contrib.layers.embedding_column(trefxverb, dimension=nD),
         tf.contrib.layers.embedding_column(dobjxverb, dimension=nD),
         tf.contrib.layers.embedding_column(subjxverb, dimension=nD),
         tf.contrib.layers.embedding_column(obl1xobl2, dimension=nD),
-
-        #TEST-SET (+1 each)
-        #tf.contrib.layers.embedding_column(synxsubj, dimension=nD),
         ]
 
 
