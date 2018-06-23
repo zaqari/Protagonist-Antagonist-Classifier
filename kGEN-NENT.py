@@ -43,7 +43,7 @@ nClasses= int(len(set(df_train['Labels'].values.tolist())))
 
 #optimal is nD where n = the number of input features.
 #optimum drop_out is .4
-nD = 6
+nD = 7
 drop_out_x = .4
 hd_units=[100, nClasses]
 num_tr_steps=int(len(df_train)*20)
@@ -334,7 +334,7 @@ deep_columns = [
         #tf.contrib.layers.embedding_column(obl2, dimension=nD),
 
         #TREF RELATED ELEMENTS (+7)
-        #tf.contrib.layers.embedding_column(tref, dimension=nD),
+        tf.contrib.layers.embedding_column(tref, dimension=nD),
         #tf.contrib.layers.embedding_column(trefxdobj, dimension=nD),
         #tf.contrib.layers.embedding_column(trefxsubj, dimension=nD),
         #tf.contrib.layers.embedding_column(trefxverb, dimension=nD),
